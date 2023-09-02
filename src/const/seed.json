@@ -1,0 +1,2002 @@
+[
+  {
+    "cab": [
+      {
+        "id": "a41acb22-b531-4df3-bed0-a09dcee524de",
+        "model": "Sedan",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-09-02T04:55:37.264Z",
+        "updated_at": "2023-09-02T09:30:39.924Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6d87207a-697c-4522-b61f-648d70a54e06",
+        "model": "SUV",
+        "license_plate": "XYZ456",
+        "status": "Booked",
+        "created_at": "2023-09-01T21:28:22.713Z",
+        "updated_at": "2023-09-01T23:43:57.413Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fae83074-bf86-4202-8d7f-956d2b9c81ab",
+        "model": "Hatchback",
+        "license_plate": "123ABC",
+        "status": "Out of Service",
+        "created_at": "2023-09-02T14:40:07.559Z",
+        "updated_at": "2023-09-01T23:12:57.814Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "905f9e18-e9b2-4c3d-9a8a-1aac9b0b7d49",
+        "model": "Convertible",
+        "license_plate": "456XYZ",
+        "status": "Under Maintenance",
+        "created_at": "2023-09-02T05:19:12.982Z",
+        "updated_at": "2023-09-02T08:49:37.593Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "772933dd-30d9-4bd0-90e4-2af7cba8922a",
+        "model": "Minivan",
+        "license_plate": "789ABC",
+        "status": "On Duty",
+        "created_at": "2023-09-02T11:28:23.160Z",
+        "updated_at": "2023-09-02T07:26:17.537Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d30c4dca-73de-4aad-a8fc-771d13083197",
+        "pickup_location": "City Center",
+        "dropoff_location": "Beach",
+        "booking_time": "2023-09-02T02:52:38.235Z",
+        "status": "Pending",
+        "created_at": "2023-09-01T18:17:49.942Z",
+        "updated_at": "2023-09-01T17:57:11.369Z",
+        "cab_id": "905f9e18-e9b2-4c3d-9a8a-1aac9b0b7d49",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75950c72-7b19-4ba4-9a6d-8cabc2a5d476",
+        "pickup_location": "Airport",
+        "dropoff_location": "Park",
+        "booking_time": "2023-09-02T11:20:17.553Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-02T03:07:06.922Z",
+        "updated_at": "2023-09-01T16:49:17.429Z",
+        "cab_id": "a41acb22-b531-4df3-bed0-a09dcee524de",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a1b512b-4529-466b-a13f-c400eb6dd4b9",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Restaurant",
+        "booking_time": "2023-09-01T19:30:27.858Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T08:01:55.779Z",
+        "updated_at": "2023-09-01T20:40:04.145Z",
+        "cab_id": "905f9e18-e9b2-4c3d-9a8a-1aac9b0b7d49",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f35500f-e187-4b70-b821-2ab6662bdb79",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Museum",
+        "booking_time": "2023-09-02T14:48:16.448Z",
+        "status": "Completed",
+        "created_at": "2023-09-01T23:51:59.265Z",
+        "updated_at": "2023-09-01T18:47:38.437Z",
+        "cab_id": "905f9e18-e9b2-4c3d-9a8a-1aac9b0b7d49",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd2cf31f-fabd-457d-9a37-312f60ae99e3",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Office",
+        "booking_time": "2023-09-01T22:40:05.363Z",
+        "status": "No Show",
+        "created_at": "2023-09-02T09:25:07.254Z",
+        "updated_at": "2023-09-01T17:17:09.198Z",
+        "cab_id": "a41acb22-b531-4df3-bed0-a09dcee524de",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin_staff": [
+      {
+        "id": "1f5ca908-517c-46b7-959e-cb3fb99b2e9c",
+        "job_title": "Manager",
+        "hire_date": "2023-09-02T02:52:31.414Z",
+        "created_at": "2023-09-01T22:45:37.739Z",
+        "updated_at": "2023-09-02T16:10:09.677Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43dcb191-0433-4ab1-96d1-920856eabcd6",
+        "job_title": "Supervisor",
+        "hire_date": "2023-09-02T08:47:42.173Z",
+        "created_at": "2023-09-01T20:32:04.464Z",
+        "updated_at": "2023-09-02T14:54:24.358Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ea48e30-4682-4e9c-b080-041f30905a87",
+        "job_title": "Coordinator",
+        "hire_date": "2023-09-02T15:44:56.917Z",
+        "created_at": "2023-09-02T11:47:02.670Z",
+        "updated_at": "2023-09-02T11:00:34.358Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac6b0792-3f9a-4e70-9c09-7cfcd3ac0866",
+        "job_title": "Assistant",
+        "hire_date": "2023-09-02T09:37:40.315Z",
+        "created_at": "2023-09-02T16:01:19.257Z",
+        "updated_at": "2023-09-02T08:49:32.089Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62993d64-331a-43ad-b851-333cf9b2f50f",
+        "job_title": "Administrator",
+        "hire_date": "2023-09-02T09:34:58.271Z",
+        "created_at": "2023-09-02T02:22:06.997Z",
+        "updated_at": "2023-09-02T02:47:01.386Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0a9b70a1-6846-451b-948b-4201b47ca119",
+        "email": "Krista84@yahoo.com",
+        "firstName": "Verla",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1134.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bfa996d8-9330-4a30-8735-5620613c9172",
+        "email": "Garry_Gusikowski50@gmail.com",
+        "firstName": "Asa",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27777381",
+        "tenantId": null
+      },
+      {
+        "reference": "7c4b64f0-428a-4bcc-9cb9-6b788ee45e59",
+        "email": "Bridgette77@yahoo.com",
+        "firstName": "Liam",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74005462",
+        "tenantId": null
+      },
+      {
+        "reference": "2569e14d-6873-4efa-934c-72a35af0fd1d",
+        "email": "Clair.Hudson@hotmail.com",
+        "firstName": "Mallie",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82839967",
+        "tenantId": null
+      },
+      {
+        "reference": "4763604d-156d-4025-bffd-8cfed0af67be",
+        "email": "Leonora31@yahoo.com",
+        "firstName": "Imogene",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/889.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cab": [
+      {
+        "id": "42a7f499-af8e-4629-93b3-b433c023e9c4",
+        "model": "Sedan",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-09-01T22:19:41.702Z",
+        "updated_at": "2023-09-01T23:52:55.817Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5e11bb6d-4b69-469f-90f8-98128911cc2f",
+        "model": "SUV",
+        "license_plate": "XYZ456",
+        "status": "Booked",
+        "created_at": "2023-09-02T14:21:04.489Z",
+        "updated_at": "2023-09-01T23:52:40.190Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "07b6f50f-5def-411c-b77a-6463e1e1cc43",
+        "model": "Hatchback",
+        "license_plate": "123ABC",
+        "status": "Out of Service",
+        "created_at": "2023-09-02T01:45:38.929Z",
+        "updated_at": "2023-09-01T18:26:31.800Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "517eb338-d42f-4a16-ab22-5acd55949b7c",
+        "model": "Convertible",
+        "license_plate": "DEF789",
+        "status": "Under Maintenance",
+        "created_at": "2023-09-02T10:14:45.966Z",
+        "updated_at": "2023-09-02T03:39:40.918Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f74b9e45-8373-4cfd-a163-adfe72dcbb4b",
+        "model": "Minivan",
+        "license_plate": "GHI321",
+        "status": "On Duty",
+        "created_at": "2023-09-02T02:43:00.634Z",
+        "updated_at": "2023-09-02T06:29:32.790Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "7899a556-5948-400d-b7b6-077b82fc238a",
+        "pickup_location": "City Center",
+        "dropoff_location": "Office",
+        "booking_time": "2023-09-01T23:48:38.714Z",
+        "status": "Pending",
+        "created_at": "2023-09-02T09:12:26.150Z",
+        "updated_at": "2023-09-02T11:21:26.712Z",
+        "cab_id": "f74b9e45-8373-4cfd-a163-adfe72dcbb4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a46afef9-9c3d-4d5e-85c9-7715d68f2f91",
+        "pickup_location": "Airport",
+        "dropoff_location": "Residential Area",
+        "booking_time": "2023-09-02T12:21:04.816Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-01T22:03:46.839Z",
+        "updated_at": "2023-09-02T04:39:31.391Z",
+        "cab_id": "42a7f499-af8e-4629-93b3-b433c023e9c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25e9aaa8-254e-465e-9dd7-a5cde26caa1c",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Restaurant",
+        "booking_time": "2023-09-02T12:09:36.078Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-01T22:38:56.800Z",
+        "updated_at": "2023-09-02T09:36:42.724Z",
+        "cab_id": "42a7f499-af8e-4629-93b3-b433c023e9c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e7fe0c1-d212-4d99-9bb8-adbd9a1c1406",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Park",
+        "booking_time": "2023-09-02T02:16:23.706Z",
+        "status": "Completed",
+        "created_at": "2023-09-02T09:04:25.566Z",
+        "updated_at": "2023-09-02T03:52:08.942Z",
+        "cab_id": "f74b9e45-8373-4cfd-a163-adfe72dcbb4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6fe87242-a281-4dcb-8447-f5dcf8a3f19a",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Hospital",
+        "booking_time": "2023-09-01T23:08:08.248Z",
+        "status": "No Show",
+        "created_at": "2023-09-02T02:32:52.145Z",
+        "updated_at": "2023-09-01T17:04:53.875Z",
+        "cab_id": "07b6f50f-5def-411c-b77a-6463e1e1cc43",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin_staff": [
+      {
+        "id": "d2ad0fac-be52-4bd0-b766-e2fcd40190db",
+        "job_title": "Manager",
+        "hire_date": "2023-09-02T07:10:23.874Z",
+        "created_at": "2023-09-02T15:59:01.322Z",
+        "updated_at": "2023-09-02T09:17:26.614Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f52287a-74f9-46a7-86e5-6c72a092f394",
+        "job_title": "Supervisor",
+        "hire_date": "2023-09-02T00:34:52.307Z",
+        "created_at": "2023-09-02T03:06:38.201Z",
+        "updated_at": "2023-09-01T20:32:50.711Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a4cd961-8235-42ff-87f0-689d7196afcd",
+        "job_title": "Coordinator",
+        "hire_date": "2023-09-02T14:12:03.763Z",
+        "created_at": "2023-09-02T13:26:01.885Z",
+        "updated_at": "2023-09-01T21:17:04.424Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "904e8cf2-3453-4da9-8bdf-d86fb6d5ec74",
+        "job_title": "Assistant",
+        "hire_date": "2023-09-01T18:03:36.617Z",
+        "created_at": "2023-09-01T22:13:41.803Z",
+        "updated_at": "2023-09-02T09:46:18.821Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd570b69-3f2e-417a-ae73-5358e3dfa97d",
+        "job_title": "Administrator",
+        "hire_date": "2023-09-01T23:30:11.660Z",
+        "created_at": "2023-09-02T00:05:39.670Z",
+        "updated_at": "2023-09-02T03:16:19.029Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f2eb2ec4-709a-46f9-8f94-2fe71f56a1ee",
+        "email": "Al.Bergstrom76@yahoo.com",
+        "firstName": "Georgette",
+        "lastName": "Mante-Fadel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/365.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "753eab7c-8eb0-4e31-bcd7-dea0c27fa7d9",
+        "email": "Odie77@gmail.com",
+        "firstName": "Niko",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/226.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3d9452aa-61a8-4736-9d29-f3c29a103da7",
+        "email": "Tom_Bogan73@yahoo.com",
+        "firstName": "Johan",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/999.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8bfd9016-385c-4abd-b79c-1ed16094fbd0",
+        "email": "Danial_Thiel@yahoo.com",
+        "firstName": "Anita",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/731.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "92da25db-a3de-4cd2-98e1-fb133145db10",
+        "email": "Reyes_McClure@yahoo.com",
+        "firstName": "Clemens",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/176.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cab": [
+      {
+        "id": "d1890ef9-600e-49ff-930f-ed84dd60d957",
+        "model": "Sedan",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-09-02T10:40:08.869Z",
+        "updated_at": "2023-09-01T19:37:11.920Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2e9b0fb5-d0ec-4f47-b894-9647b9b70926",
+        "model": "SUV",
+        "license_plate": "XYZ456",
+        "status": "Booked",
+        "created_at": "2023-09-01T18:34:43.833Z",
+        "updated_at": "2023-09-02T01:11:12.406Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1137488e-6564-4e8f-81d4-aa2445273661",
+        "model": "Hatchback",
+        "license_plate": "123DEF",
+        "status": "Out of Service",
+        "created_at": "2023-09-02T03:47:46.716Z",
+        "updated_at": "2023-09-01T22:30:26.481Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "827d98da-4446-4a52-b9b3-0d73015f6041",
+        "model": "Luxury",
+        "license_plate": "GHI789",
+        "status": "Under Maintenance",
+        "created_at": "2023-09-01T17:56:25.754Z",
+        "updated_at": "2023-09-01T21:40:30.048Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "00cf0e57-4ffa-4cdb-8257-878bbb235797",
+        "model": "Electric",
+        "license_plate": "JKL012",
+        "status": "On Route",
+        "created_at": "2023-09-02T08:15:37.096Z",
+        "updated_at": "2023-09-01T18:32:25.499Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "a94ebeff-886f-495f-85fc-da7f7dfb017f",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "booking_time": "2023-09-02T16:39:15.361Z",
+        "status": "Pending",
+        "created_at": "2023-09-02T10:31:37.046Z",
+        "updated_at": "2023-09-01T23:23:04.324Z",
+        "cab_id": "2e9b0fb5-d0ec-4f47-b894-9647b9b70926",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9410d04b-c5e7-4d88-b0aa-ffe1519153e3",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Residential Area",
+        "booking_time": "2023-09-01T21:45:48.831Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-02T12:24:01.306Z",
+        "updated_at": "2023-09-02T06:31:40.149Z",
+        "cab_id": "827d98da-4446-4a52-b9b3-0d73015f6041",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0b1929e-c34e-43f4-94c2-243232ce9843",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Tourist Attraction",
+        "booking_time": "2023-09-02T09:11:31.851Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T15:42:16.327Z",
+        "updated_at": "2023-09-01T21:44:06.648Z",
+        "cab_id": "827d98da-4446-4a52-b9b3-0d73015f6041",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8fae653-1a91-47fe-94e9-0d23173ad936",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "booking_time": "2023-09-02T04:00:33.580Z",
+        "status": "Completed",
+        "created_at": "2023-09-01T18:19:42.177Z",
+        "updated_at": "2023-09-02T04:19:49.612Z",
+        "cab_id": "2e9b0fb5-d0ec-4f47-b894-9647b9b70926",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc913ca9-c09e-4f91-b802-76510d7585d1",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "booking_time": "2023-09-02T13:44:23.836Z",
+        "status": "No Show",
+        "created_at": "2023-09-01T22:54:12.805Z",
+        "updated_at": "2023-09-02T12:26:25.067Z",
+        "cab_id": "d1890ef9-600e-49ff-930f-ed84dd60d957",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin_staff": [
+      {
+        "id": "53a11dd2-bd70-4ecf-bfaa-fb9ed70d38c7",
+        "job_title": "Manager",
+        "hire_date": "2023-09-01T22:56:39.898Z",
+        "created_at": "2023-09-02T05:28:16.337Z",
+        "updated_at": "2023-09-02T15:29:24.146Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a696c0e-67be-4871-a104-087a5008cf02",
+        "job_title": "Supervisor",
+        "hire_date": "2023-09-01T22:45:09.201Z",
+        "created_at": "2023-09-02T00:22:09.718Z",
+        "updated_at": "2023-09-01T19:45:57.866Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "558ae8f7-b387-4295-9bca-d8c320c11bfd",
+        "job_title": "Coordinator",
+        "hire_date": "2023-09-02T09:16:59.155Z",
+        "created_at": "2023-09-02T08:44:15.130Z",
+        "updated_at": "2023-09-02T05:25:21.895Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6928f34-ecd7-464d-9c63-489ca37b814e",
+        "job_title": "Administrator",
+        "hire_date": "2023-09-02T10:29:56.477Z",
+        "created_at": "2023-09-01T21:28:33.029Z",
+        "updated_at": "2023-09-02T11:17:28.597Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e7f0146-2636-425b-8bfa-36d1511e342f",
+        "job_title": "Assistant",
+        "hire_date": "2023-09-01T22:35:44.073Z",
+        "created_at": "2023-09-02T13:00:56.345Z",
+        "updated_at": "2023-09-02T13:45:01.294Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "47d4e2fe-cf47-46f0-a6af-f1c733efaeaa",
+        "email": "Mollie.Kovacek32@yahoo.com",
+        "firstName": "Lila",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/765.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aec35022-54ea-408e-be90-08d14c90ff54",
+        "email": "Fatima_Rice87@gmail.com",
+        "firstName": "Maryjane",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/64.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5a093e5f-284f-4952-946f-ee9c281a6550",
+        "email": "Emmet.Nicolas@gmail.com",
+        "firstName": "Shannon",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/133.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "963ed067-50ef-4a9b-806f-eeb34fb81e0f",
+        "email": "Piper.Paucek-Cassin36@gmail.com",
+        "firstName": "Alec",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/732.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d6ffb4ac-7cab-4a19-9853-c4da77963ad6",
+        "email": "Jaydon_Schinner93@yahoo.com",
+        "firstName": "Amy",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1223.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cab": [
+      {
+        "id": "de34000c-1978-4014-9909-1cac5148ed1f",
+        "model": "Sedan",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-09-01T16:54:49.164Z",
+        "updated_at": "2023-09-02T06:55:48.020Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b0c74393-efb1-4313-8064-ddf0462ae438",
+        "model": "SUV",
+        "license_plate": "XYZ789",
+        "status": "Booked",
+        "created_at": "2023-09-02T13:04:05.581Z",
+        "updated_at": "2023-09-02T07:11:35.775Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ad6f0001-e63e-4706-9845-915098989a62",
+        "model": "Hatchback",
+        "license_plate": "DEF456",
+        "status": "Out of Service",
+        "created_at": "2023-09-02T16:11:17.749Z",
+        "updated_at": "2023-09-01T23:08:31.333Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "670d530d-e4c4-461c-9384-557eec555d98",
+        "model": "Luxury",
+        "license_plate": "GHI987",
+        "status": "Under Maintenance",
+        "created_at": "2023-09-02T11:43:47.968Z",
+        "updated_at": "2023-09-01T23:32:28.408Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fa568694-ef8c-4dae-9a9f-74cc28c846f1",
+        "model": "Electric",
+        "license_plate": "JKL321",
+        "status": "On Duty",
+        "created_at": "2023-09-02T07:32:31.578Z",
+        "updated_at": "2023-09-02T07:17:58.172Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d6460edd-613d-4dea-8b90-8008679e5d79",
+        "pickup_location": "City Center",
+        "dropoff_location": "Office",
+        "booking_time": "2023-09-02T13:55:05.912Z",
+        "status": "Pending",
+        "created_at": "2023-09-02T05:16:25.639Z",
+        "updated_at": "2023-09-01T21:14:18.877Z",
+        "cab_id": "b0c74393-efb1-4313-8064-ddf0462ae438",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8741bf1d-9750-462b-b49b-c26ff9a216b4",
+        "pickup_location": "Airport",
+        "dropoff_location": "Residential Area",
+        "booking_time": "2023-09-01T17:00:30.547Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-01T20:36:47.548Z",
+        "updated_at": "2023-09-01T18:31:43.554Z",
+        "cab_id": "fa568694-ef8c-4dae-9a9f-74cc28c846f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b47db378-edfd-4991-b390-7d79bd6ec8f8",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Restaurant",
+        "booking_time": "2023-09-01T20:39:10.875Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T12:16:38.261Z",
+        "updated_at": "2023-09-01T19:59:12.637Z",
+        "cab_id": "fa568694-ef8c-4dae-9a9f-74cc28c846f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a2e0c6c-d206-4963-be32-c7e8808a1abd",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Tourist Attraction",
+        "booking_time": "2023-09-02T03:03:08.825Z",
+        "status": "Completed",
+        "created_at": "2023-09-01T18:34:57.473Z",
+        "updated_at": "2023-09-01T23:23:07.673Z",
+        "cab_id": "670d530d-e4c4-461c-9384-557eec555d98",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6263bd21-cbe7-4add-9b87-ea699a0e7b58",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Hospital",
+        "booking_time": "2023-09-02T14:01:01.536Z",
+        "status": "No Show",
+        "created_at": "2023-09-02T07:09:39.567Z",
+        "updated_at": "2023-09-02T07:21:11.593Z",
+        "cab_id": "670d530d-e4c4-461c-9384-557eec555d98",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin_staff": [
+      {
+        "id": "d9994d47-8e20-4da0-87cf-d0cea3b7327d",
+        "job_title": "Manager",
+        "hire_date": "2023-09-01T20:20:19.582Z",
+        "created_at": "2023-09-02T08:29:43.881Z",
+        "updated_at": "2023-09-01T18:17:24.237Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cea1a4d5-bb57-4241-9a3a-dda09e53a46c",
+        "job_title": "Supervisor",
+        "hire_date": "2023-09-01T18:29:39.493Z",
+        "created_at": "2023-09-02T08:00:50.795Z",
+        "updated_at": "2023-09-02T05:43:55.844Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ffe3f48-101a-4442-ad62-6d3fb6cdf4b1",
+        "job_title": "Coordinator",
+        "hire_date": "2023-09-01T21:39:58.738Z",
+        "created_at": "2023-09-02T06:31:20.167Z",
+        "updated_at": "2023-09-01T20:47:58.874Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8579ffe-3436-4bbb-8244-116eb998b6c2",
+        "job_title": "Administrator",
+        "hire_date": "2023-09-01T19:48:43.951Z",
+        "created_at": "2023-09-02T02:38:39.327Z",
+        "updated_at": "2023-09-02T14:21:36.807Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d90719e-ecaa-48b2-ba00-9738740a6df0",
+        "job_title": "Executive",
+        "hire_date": "2023-09-02T03:44:09.286Z",
+        "created_at": "2023-09-02T11:55:32.445Z",
+        "updated_at": "2023-09-02T16:07:22.758Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "34f5ff78-7a80-422b-aa1c-a87730e8cfdf",
+        "email": "Darion_Schamberger52@hotmail.com",
+        "firstName": "Bill",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/181.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "92fabb11-6234-4753-ad25-5b0fc6cbc3e9",
+        "email": "Nadia.Stokes2@hotmail.com",
+        "firstName": "Werner",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/430.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f67a55a7-e484-400b-bd31-015e26228498",
+        "email": "Aliza.Marks57@gmail.com",
+        "firstName": "Damian",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70623985",
+        "tenantId": null
+      },
+      {
+        "reference": "41d64f3c-3b97-459c-9824-620c3bb65e1a",
+        "email": "Brook17@yahoo.com",
+        "firstName": "Ole",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90172824",
+        "tenantId": null
+      },
+      {
+        "reference": "8957ece9-4246-4a1d-ad57-da1365ef1f52",
+        "email": "Sarai_Schmitt@gmail.com",
+        "firstName": "Aron",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46840022",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cab": [
+      {
+        "id": "a910e406-358f-40bb-9031-cf295261631c",
+        "model": "Sedan",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-09-01T20:44:04.294Z",
+        "updated_at": "2023-09-02T00:38:53.363Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0e55273f-a6c8-4161-afaa-47bbbbe5cd0e",
+        "model": "SUV",
+        "license_plate": "XYZ789",
+        "status": "Booked",
+        "created_at": "2023-09-02T05:48:43.075Z",
+        "updated_at": "2023-09-02T07:46:18.377Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "296c2d32-1150-402c-ab9a-bcaa37edc33a",
+        "model": "Hatchback",
+        "license_plate": "123ABC",
+        "status": "Out of Service",
+        "created_at": "2023-09-02T14:59:52.178Z",
+        "updated_at": "2023-09-01T22:16:28.177Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a5634e41-cf8a-403c-bc26-4f20f50941c5",
+        "model": "Convertible",
+        "license_plate": "DEF456",
+        "status": "Maintenance",
+        "created_at": "2023-09-02T05:54:12.239Z",
+        "updated_at": "2023-09-01T21:11:10.794Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7eace799-c5d3-4973-b76e-c9e15e95d434",
+        "model": "Minivan",
+        "license_plate": "GHI789",
+        "status": "On Duty",
+        "created_at": "2023-09-01T17:00:55.997Z",
+        "updated_at": "2023-09-01T23:11:54.149Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "bd725491-2d9b-4970-9a9e-5157f3105bfb",
+        "pickup_location": "City Center",
+        "dropoff_location": "Office",
+        "booking_time": "2023-09-02T13:23:59.302Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-02T14:33:26.443Z",
+        "updated_at": "2023-09-01T22:49:14.239Z",
+        "cab_id": "a910e406-358f-40bb-9031-cf295261631c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d24fdc22-0e7b-43ce-8f80-f0a85d333463",
+        "pickup_location": "Airport",
+        "dropoff_location": "Residential Area",
+        "booking_time": "2023-09-01T21:13:19.932Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T02:50:10.332Z",
+        "updated_at": "2023-09-01T23:10:29.918Z",
+        "cab_id": "a5634e41-cf8a-403c-bc26-4f20f50941c5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24ee0455-5409-4f57-b1f6-252118bb9f57",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Restaurant",
+        "booking_time": "2023-09-02T15:15:13.969Z",
+        "status": "Completed",
+        "created_at": "2023-09-01T23:59:07.387Z",
+        "updated_at": "2023-09-01T19:51:53.718Z",
+        "cab_id": "0e55273f-a6c8-4161-afaa-47bbbbe5cd0e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8768e200-67ac-4a64-88f5-1246173b7e63",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Tourist Attraction",
+        "booking_time": "2023-09-01T23:13:49.310Z",
+        "status": "Pending",
+        "created_at": "2023-09-02T05:54:32.846Z",
+        "updated_at": "2023-09-02T04:19:50.781Z",
+        "cab_id": "7eace799-c5d3-4973-b76e-c9e15e95d434",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73813bb8-bbf3-4ab7-b674-75fad15516b5",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Hospital",
+        "booking_time": "2023-09-01T18:42:16.318Z",
+        "status": "In Progress",
+        "created_at": "2023-09-01T18:47:00.811Z",
+        "updated_at": "2023-09-02T14:14:30.605Z",
+        "cab_id": "7eace799-c5d3-4973-b76e-c9e15e95d434",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin_staff": [
+      {
+        "id": "8516169e-d405-461e-8868-d63415d20324",
+        "job_title": "Manager",
+        "hire_date": "2023-09-01T16:57:01.815Z",
+        "created_at": "2023-09-01T19:10:46.873Z",
+        "updated_at": "2023-09-01T19:41:36.369Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "161980f2-c21c-4847-9c03-57b5650e318b",
+        "job_title": "Supervisor",
+        "hire_date": "2023-09-02T12:35:06.156Z",
+        "created_at": "2023-09-02T06:56:15.693Z",
+        "updated_at": "2023-09-02T08:39:33.274Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffd70fbf-5570-4647-8389-fe5dfa9e6e64",
+        "job_title": "Coordinator",
+        "hire_date": "2023-09-02T06:53:06.132Z",
+        "created_at": "2023-09-02T15:04:16.772Z",
+        "updated_at": "2023-09-02T06:50:15.881Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f167e210-54d1-43ad-8dec-72df556cb2bb",
+        "job_title": "Assistant",
+        "hire_date": "2023-09-01T18:07:36.607Z",
+        "created_at": "2023-09-01T22:07:17.266Z",
+        "updated_at": "2023-09-01T21:20:58.320Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1ade76d-1271-4226-9d21-c88b2536fa1e",
+        "job_title": "Administrator",
+        "hire_date": "2023-09-02T09:49:51.010Z",
+        "created_at": "2023-09-01T23:20:54.475Z",
+        "updated_at": "2023-09-02T10:01:15.929Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7f1a5114-1f3b-4070-844e-21588799e5d8",
+        "email": "Anika_Schuppe13@hotmail.com",
+        "firstName": "Alfonzo",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/361.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2f2881f7-13ba-4ad1-8121-8f75170f920d",
+        "email": "Bert.Bernier-Nienow@gmail.com",
+        "firstName": "Lucius",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17950291",
+        "tenantId": null
+      },
+      {
+        "reference": "7c7db9da-5581-46be-81cb-677db5f0c8ab",
+        "email": "Kirstin.Davis61@hotmail.com",
+        "firstName": "Damian",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/943.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "531f0c36-2b65-4a3c-85a0-11f67c6fadb1",
+        "email": "Russell_McCullough@gmail.com",
+        "firstName": "Alphonso",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/162.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9d87540b-df80-4efa-9d02-96bf602821a5",
+        "email": "Ricardo.Legros@gmail.com",
+        "firstName": "Maximilian",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13623171",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cab": [
+      {
+        "id": "9a5e2a5c-0bb3-47f9-a306-402c34e1daa5",
+        "model": "Sedan",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-09-01T18:13:57.988Z",
+        "updated_at": "2023-09-02T03:40:21.727Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9b6b57ad-1b58-4dfa-a2fa-518c7fd10b6a",
+        "model": "SUV",
+        "license_plate": "XYZ456",
+        "status": "Booked",
+        "created_at": "2023-09-02T00:29:09.338Z",
+        "updated_at": "2023-09-02T03:40:31.612Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7e8f503e-9b02-43ed-986a-4c8652e46883",
+        "model": "Hatchback",
+        "license_plate": "123DEF",
+        "status": "Out of Service",
+        "created_at": "2023-09-01T20:14:57.335Z",
+        "updated_at": "2023-09-02T02:40:49.577Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "30eda1e1-07d5-4e7a-96af-e89c2829220a",
+        "model": "Convertible",
+        "license_plate": "GHI789",
+        "status": "Maintenance",
+        "created_at": "2023-09-02T10:32:59.466Z",
+        "updated_at": "2023-09-01T18:01:38.213Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dc797548-45c4-4015-8d92-a808f57da466",
+        "model": "Minivan",
+        "license_plate": "JKL012",
+        "status": "On Route",
+        "created_at": "2023-09-01T22:22:06.946Z",
+        "updated_at": "2023-09-01T22:49:23.518Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "066cc704-b8b1-4cc2-a562-5ca8cd79bc01",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "booking_time": "2023-09-02T02:56:04.996Z",
+        "status": "Pending",
+        "created_at": "2023-09-02T04:27:45.914Z",
+        "updated_at": "2023-09-02T15:16:57.679Z",
+        "cab_id": "30eda1e1-07d5-4e7a-96af-e89c2829220a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41e01097-9c7f-47d8-a52b-c2b26d177c32",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Residential Area",
+        "booking_time": "2023-09-02T07:44:12.384Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-02T07:31:21.434Z",
+        "updated_at": "2023-09-02T01:19:27.037Z",
+        "cab_id": "7e8f503e-9b02-43ed-986a-4c8652e46883",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d80d8599-6277-4230-8732-efdc39c6c364",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Restaurant",
+        "booking_time": "2023-09-02T06:00:50.772Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T03:53:48.810Z",
+        "updated_at": "2023-09-02T02:08:34.534Z",
+        "cab_id": "7e8f503e-9b02-43ed-986a-4c8652e46883",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0ad5e26-45aa-4754-aaa8-e5f0edbf2c11",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Park",
+        "booking_time": "2023-09-02T10:33:42.373Z",
+        "status": "Completed",
+        "created_at": "2023-09-02T13:04:01.529Z",
+        "updated_at": "2023-09-01T21:53:51.576Z",
+        "cab_id": "30eda1e1-07d5-4e7a-96af-e89c2829220a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7913aefa-1cd8-4dbd-a321-c1fd1282278d",
+        "pickup_location": "Office Building",
+        "dropoff_location": "Beach",
+        "booking_time": "2023-09-01T22:33:14.453Z",
+        "status": "In Progress",
+        "created_at": "2023-09-01T21:44:30.256Z",
+        "updated_at": "2023-09-02T03:30:51.656Z",
+        "cab_id": "30eda1e1-07d5-4e7a-96af-e89c2829220a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin_staff": [
+      {
+        "id": "ce347db7-d614-48b4-b75c-830e0ec11f13",
+        "job_title": "Manager",
+        "hire_date": "2023-09-02T08:52:35.335Z",
+        "created_at": "2023-09-02T07:49:10.687Z",
+        "updated_at": "2023-09-02T04:33:23.871Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55dbb986-e53b-465b-9883-5cf7116450a7",
+        "job_title": "Supervisor",
+        "hire_date": "2023-09-02T01:57:31.292Z",
+        "created_at": "2023-09-02T05:57:06.388Z",
+        "updated_at": "2023-09-02T00:43:52.205Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ce1c37a-a408-429c-9402-ec8de1308793",
+        "job_title": "Coordinator",
+        "hire_date": "2023-09-02T05:14:25.047Z",
+        "created_at": "2023-09-01T18:31:20.181Z",
+        "updated_at": "2023-09-01T22:29:36.530Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cb6afc6-7f97-4393-893a-b02dd9bb0634",
+        "job_title": "Administrator",
+        "hire_date": "2023-09-02T10:38:52.609Z",
+        "created_at": "2023-09-02T03:17:47.372Z",
+        "updated_at": "2023-09-02T13:06:03.005Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b5b4076-70b9-4fa6-8db8-5c91433dc76f",
+        "job_title": "Executive",
+        "hire_date": "2023-09-01T19:03:01.871Z",
+        "created_at": "2023-09-02T09:42:24.880Z",
+        "updated_at": "2023-09-01T17:53:23.948Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e4ec28d5-c560-4c7f-b94d-0d44aaeb1bea",
+        "email": "Barry23@gmail.com",
+        "firstName": "Maye",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/560.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cadd323f-275c-4fbf-807a-ddf14ecf47f0",
+        "email": "Felipa79@yahoo.com",
+        "firstName": "Cassandre",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/40.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d8a7fb5c-2d50-49ee-96fb-7d3e91f9e1f4",
+        "email": "Nikolas_Greenholt@gmail.com",
+        "firstName": "Hilda",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/291.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1f33b805-4160-4852-ac0b-f543bfdd5418",
+        "email": "Renee_Hilpert70@hotmail.com",
+        "firstName": "Beulah",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44290756",
+        "tenantId": null
+      },
+      {
+        "reference": "1c638576-ef83-4865-b31a-6bdce091172d",
+        "email": "Candelario22@gmail.com",
+        "firstName": "Aniyah",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95305164",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cab": [
+      {
+        "id": "36b1195e-fca1-48ea-8a62-b2972b386e9b",
+        "model": "Sedan",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-09-02T05:51:30.603Z",
+        "updated_at": "2023-09-02T05:11:17.821Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "61890f9f-e23c-4d9a-8c62-8a51d1afb92a",
+        "model": "SUV",
+        "license_plate": "XYZ456",
+        "status": "Booked",
+        "created_at": "2023-09-01T22:29:30.584Z",
+        "updated_at": "2023-09-02T12:57:32.688Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "92ebc98a-76c5-46a2-bcfa-fdd077bac0f1",
+        "model": "Hatchback",
+        "license_plate": "123DEF",
+        "status": "Under Maintenance",
+        "created_at": "2023-09-02T13:48:55.479Z",
+        "updated_at": "2023-09-02T03:58:44.050Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fb694531-24cc-4a84-9743-ec8fb10346cc",
+        "model": "Luxury",
+        "license_plate": "GHI789",
+        "status": "Out of Service",
+        "created_at": "2023-09-02T04:34:04.964Z",
+        "updated_at": "2023-09-02T09:06:40.322Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f6b4da9f-e631-4b2a-9896-fde5ece57fba",
+        "model": "Electric",
+        "license_plate": "JKL012",
+        "status": "On Route",
+        "created_at": "2023-09-02T11:42:31.163Z",
+        "updated_at": "2023-09-02T05:00:20.990Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "0a9dbbf0-0e27-4bce-9452-9556183681a4",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "booking_time": "2023-09-01T19:56:59.155Z",
+        "status": "Pending",
+        "created_at": "2023-09-02T01:59:54.931Z",
+        "updated_at": "2023-09-02T09:47:31.123Z",
+        "cab_id": "fb694531-24cc-4a84-9743-ec8fb10346cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30f62cec-f862-486a-975e-b265d88c9d3d",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Residential Area",
+        "booking_time": "2023-09-02T08:01:55.405Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-02T01:13:05.961Z",
+        "updated_at": "2023-09-02T07:38:00.306Z",
+        "cab_id": "61890f9f-e23c-4d9a-8c62-8a51d1afb92a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b36708c9-488e-4ba4-aef6-14e294bae910",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Restaurant",
+        "booking_time": "2023-09-02T08:27:12.328Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T09:49:16.602Z",
+        "updated_at": "2023-09-01T21:18:25.111Z",
+        "cab_id": "92ebc98a-76c5-46a2-bcfa-fdd077bac0f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "839bf94a-1166-4ced-94ef-30a4b303ea27",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Park",
+        "booking_time": "2023-09-01T17:38:38.264Z",
+        "status": "Completed",
+        "created_at": "2023-09-02T02:34:33.778Z",
+        "updated_at": "2023-09-01T20:12:11.106Z",
+        "cab_id": "61890f9f-e23c-4d9a-8c62-8a51d1afb92a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28c0a8cf-ccbe-463d-8acb-9806f6c49dd8",
+        "pickup_location": "Office",
+        "dropoff_location": "Beach",
+        "booking_time": "2023-09-02T02:52:59.054Z",
+        "status": "No Show",
+        "created_at": "2023-09-01T19:25:51.410Z",
+        "updated_at": "2023-09-02T01:45:14.212Z",
+        "cab_id": "61890f9f-e23c-4d9a-8c62-8a51d1afb92a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin_staff": [
+      {
+        "id": "11317db6-689a-4603-9722-0ea2752663f9",
+        "job_title": "Manager",
+        "hire_date": "2023-09-01T18:30:52.831Z",
+        "created_at": "2023-09-02T09:43:43.562Z",
+        "updated_at": "2023-09-01T22:52:25.513Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "898997d5-8e48-479e-8c27-b54be3cc05b8",
+        "job_title": "Supervisor",
+        "hire_date": "2023-09-01T17:57:27.295Z",
+        "created_at": "2023-09-01T22:56:25.021Z",
+        "updated_at": "2023-09-01T19:38:16.894Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0d256e6-8070-4835-969c-95c1ff9d90bc",
+        "job_title": "Coordinator",
+        "hire_date": "2023-09-02T01:17:47.700Z",
+        "created_at": "2023-09-02T03:03:51.373Z",
+        "updated_at": "2023-09-02T09:59:58.488Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf673a00-95d9-4ff6-82a6-ec90be40567a",
+        "job_title": "Administrator",
+        "hire_date": "2023-09-01T20:26:59.902Z",
+        "created_at": "2023-09-02T10:28:44.333Z",
+        "updated_at": "2023-09-02T02:02:42.593Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "076a47c7-dfa6-4ce3-af7f-c30982fcf6dd",
+        "job_title": "Assistant",
+        "hire_date": "2023-09-02T10:44:20.240Z",
+        "created_at": "2023-09-02T07:29:45.874Z",
+        "updated_at": "2023-09-01T19:33:18.657Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bf790cab-d293-4e20-92b8-b5ddc81afa04",
+        "email": "Hadley86@gmail.com",
+        "firstName": "Josie",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/193.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c68e9a6f-50e2-427e-9538-46424e817bc8",
+        "email": "Elena.Thiel95@gmail.com",
+        "firstName": "Gudrun",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/225.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f19bdeb-e36b-4e55-a17a-ca96fcaf410a",
+        "email": "Lorine_Feest@hotmail.com",
+        "firstName": "Richard",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/284.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ef51a859-61bc-429a-ae65-b6e9be6e83e4",
+        "email": "Annetta_Romaguera88@yahoo.com",
+        "firstName": "Jayden",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/440.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6748c39c-1fe5-49dc-87ec-61cc4bc1539e",
+        "email": "Jacklyn.Beatty-Thompson@gmail.com",
+        "firstName": "Gage",
+        "lastName": "Kassulke-Runte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40723884",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cab": [
+      {
+        "id": "6433fca5-6ec7-4e24-85b9-0519ed869608",
+        "model": "Sedan",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-09-02T02:12:17.064Z",
+        "updated_at": "2023-09-02T01:33:00.059Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a828460d-5d8f-4900-bada-6da79677920b",
+        "model": "SUV",
+        "license_plate": "XYZ456",
+        "status": "Booked",
+        "created_at": "2023-09-01T19:23:10.316Z",
+        "updated_at": "2023-09-02T13:16:33.271Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d6aa8b92-d9c2-4cac-a99e-ff6b5b39776f",
+        "model": "Hatchback",
+        "license_plate": "123DEF",
+        "status": "Out of Service",
+        "created_at": "2023-09-02T09:50:26.914Z",
+        "updated_at": "2023-09-02T08:36:36.568Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "058a6a47-f47b-4878-96eb-64d6d0049250",
+        "model": "Convertible",
+        "license_plate": "456GHI",
+        "status": "Under Maintenance",
+        "created_at": "2023-09-01T21:31:08.929Z",
+        "updated_at": "2023-09-02T16:32:16.157Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "291a872f-82b1-4d0c-b46e-3f5ead5399c9",
+        "model": "Minivan",
+        "license_plate": "JKL789",
+        "status": "On Duty",
+        "created_at": "2023-09-02T12:49:16.896Z",
+        "updated_at": "2023-09-01T19:02:45.114Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "2b9b5427-718e-4f7f-8463-aea5a5e462dd",
+        "pickup_location": "City Center",
+        "dropoff_location": "Beach",
+        "booking_time": "2023-09-02T01:22:50.277Z",
+        "status": "Pending",
+        "created_at": "2023-09-02T16:41:27.469Z",
+        "updated_at": "2023-09-02T13:25:14.316Z",
+        "cab_id": "291a872f-82b1-4d0c-b46e-3f5ead5399c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12f0ca8c-114d-4cca-9abb-44702b51ac8e",
+        "pickup_location": "Airport",
+        "dropoff_location": "Park",
+        "booking_time": "2023-09-01T21:35:17.846Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-02T16:40:04.527Z",
+        "updated_at": "2023-09-02T15:34:27.758Z",
+        "cab_id": "6433fca5-6ec7-4e24-85b9-0519ed869608",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0db743b-2a82-420e-bf82-77ddf6329b67",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Restaurant",
+        "booking_time": "2023-09-02T09:22:41.950Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T16:44:38.694Z",
+        "updated_at": "2023-09-01T22:42:41.591Z",
+        "cab_id": "6433fca5-6ec7-4e24-85b9-0519ed869608",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afbacfe5-2c8e-4a13-82b5-519ced113925",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Museum",
+        "booking_time": "2023-09-02T13:37:03.130Z",
+        "status": "Completed",
+        "created_at": "2023-09-02T11:01:58.385Z",
+        "updated_at": "2023-09-02T01:18:36.061Z",
+        "cab_id": "291a872f-82b1-4d0c-b46e-3f5ead5399c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ab496e9-d110-49b5-9d57-4e2724a70824",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Office",
+        "booking_time": "2023-09-02T06:32:59.383Z",
+        "status": "No Show",
+        "created_at": "2023-09-01T18:13:12.942Z",
+        "updated_at": "2023-09-02T00:39:01.174Z",
+        "cab_id": "058a6a47-f47b-4878-96eb-64d6d0049250",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin_staff": [
+      {
+        "id": "591dfae6-1e50-45cb-a2a3-97bd03497c5a",
+        "job_title": "Manager",
+        "hire_date": "2023-09-02T05:47:19.226Z",
+        "created_at": "2023-09-01T19:28:00.618Z",
+        "updated_at": "2023-09-02T00:43:46.171Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61c4a9a6-f3cb-46eb-bb11-2ed5221c6e23",
+        "job_title": "Supervisor",
+        "hire_date": "2023-09-02T12:05:22.949Z",
+        "created_at": "2023-09-02T13:04:47.830Z",
+        "updated_at": "2023-09-02T03:06:42.437Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1a4f621-3e00-4a30-aff8-31a610e6e3fc",
+        "job_title": "Coordinator",
+        "hire_date": "2023-09-02T02:47:24.537Z",
+        "created_at": "2023-09-02T03:19:27.171Z",
+        "updated_at": "2023-09-01T23:01:28.403Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc006586-573c-4727-a1ef-cc9b647a17a3",
+        "job_title": "Administrator",
+        "hire_date": "2023-09-02T01:58:12.287Z",
+        "created_at": "2023-09-02T14:26:45.304Z",
+        "updated_at": "2023-09-02T09:11:10.117Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26689a25-ac85-4623-a7ab-bc26e74e6ae3",
+        "job_title": "Executive",
+        "hire_date": "2023-09-02T00:31:54.083Z",
+        "created_at": "2023-09-02T08:00:01.261Z",
+        "updated_at": "2023-09-02T06:17:39.025Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "35a3a2c3-5ad3-4055-9a2a-474858694275",
+        "email": "Kurt.Schultz48@gmail.com",
+        "firstName": "Royce",
+        "lastName": "Murphy-Toy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/466.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dd82c0d5-770f-464c-8f8c-b4f54e37e4cc",
+        "email": "Delilah.Hyatt26@yahoo.com",
+        "firstName": "Madisen",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96417224",
+        "tenantId": null
+      },
+      {
+        "reference": "a056b2c2-c168-42ea-b12a-d552254ddc5e",
+        "email": "Jarrell.Walter@yahoo.com",
+        "firstName": "Justina",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21460353",
+        "tenantId": null
+      },
+      {
+        "reference": "f88bd9de-6a85-4faf-a919-acb8a455745c",
+        "email": "Alicia83@yahoo.com",
+        "firstName": "Pauline",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/704.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e32abb79-ba44-47f9-aada-1e62b2606c27",
+        "email": "Dorothy_Rau68@yahoo.com",
+        "firstName": "Devyn",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17791623",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cab": [
+      {
+        "id": "b72170fb-5507-42f9-9886-93ac58544a8b",
+        "model": "Toyota Camry",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-09-02T15:58:52.939Z",
+        "updated_at": "2023-09-02T02:09:37.715Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d4b8f835-407c-4ddb-8a74-85110a363500",
+        "model": "Honda Civic",
+        "license_plate": "XYZ789",
+        "status": "Booked",
+        "created_at": "2023-09-01T18:46:46.114Z",
+        "updated_at": "2023-09-01T20:55:58.297Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9e1524c7-bfdf-4a8f-9050-ff0670e5e4c5",
+        "model": "Ford Mustang",
+        "license_plate": "123ABC",
+        "status": "Out of service",
+        "created_at": "2023-09-02T05:07:47.195Z",
+        "updated_at": "2023-09-02T11:10:37.240Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "77bed9e6-217b-4c82-8ba6-034321cdee7b",
+        "model": "Chevrolet Tahoe",
+        "license_plate": "DEF456",
+        "status": "Maintenance",
+        "created_at": "2023-09-01T18:17:17.459Z",
+        "updated_at": "2023-09-02T07:00:56.901Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5f1d60d9-7996-4863-9f21-8eb9b7d03291",
+        "model": "BMW X5",
+        "license_plate": "GHI789",
+        "status": "Unavailable",
+        "created_at": "2023-09-02T15:46:11.155Z",
+        "updated_at": "2023-09-02T12:16:57.870Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "0119d7fb-4703-4fcf-9e54-a0f4101843fb",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "booking_time": "2023-09-02T14:29:16.334Z",
+        "status": "Pending",
+        "created_at": "2023-09-02T05:27:46.245Z",
+        "updated_at": "2023-09-02T02:07:31.176Z",
+        "cab_id": "d4b8f835-407c-4ddb-8a74-85110a363500",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17944394-b44e-4908-8ac1-0b5f7acaa0f6",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Residential Area",
+        "booking_time": "2023-09-01T17:24:00.359Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-02T00:06:51.046Z",
+        "updated_at": "2023-09-02T04:45:03.938Z",
+        "cab_id": "9e1524c7-bfdf-4a8f-9050-ff0670e5e4c5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38ad9d5f-abe8-47df-8f94-efae4c45f219",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Restaurant",
+        "booking_time": "2023-09-02T11:27:57.331Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T13:07:14.960Z",
+        "updated_at": "2023-09-02T03:34:31.201Z",
+        "cab_id": "9e1524c7-bfdf-4a8f-9050-ff0670e5e4c5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98fda052-b77c-4c13-86de-d49d72606af7",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Park",
+        "booking_time": "2023-09-02T09:52:52.268Z",
+        "status": "Completed",
+        "created_at": "2023-09-02T10:30:33.429Z",
+        "updated_at": "2023-09-02T16:08:56.360Z",
+        "cab_id": "b72170fb-5507-42f9-9886-93ac58544a8b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88a64b14-91f1-4989-8c09-7b884449837d",
+        "pickup_location": "Office Building",
+        "dropoff_location": "Beach",
+        "booking_time": "2023-09-02T05:01:21.034Z",
+        "status": "On Hold",
+        "created_at": "2023-09-02T03:50:01.322Z",
+        "updated_at": "2023-09-01T23:19:57.724Z",
+        "cab_id": "77bed9e6-217b-4c82-8ba6-034321cdee7b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin_staff": [
+      {
+        "id": "3df55608-6c4f-4e7b-a8c1-c4e689bf7111",
+        "job_title": "Manager",
+        "hire_date": "2023-09-01T19:38:49.247Z",
+        "created_at": "2023-09-02T05:30:44.911Z",
+        "updated_at": "2023-09-01T23:44:31.217Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a901289f-a545-4cfc-ad80-c1ec459a2b89",
+        "job_title": "Supervisor",
+        "hire_date": "2023-09-01T22:50:53.065Z",
+        "created_at": "2023-09-02T15:53:13.534Z",
+        "updated_at": "2023-09-02T00:13:39.950Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3268b9b-61d3-4a45-a11b-2a6fa0ae5a70",
+        "job_title": "Coordinator",
+        "hire_date": "2023-09-01T19:55:44.488Z",
+        "created_at": "2023-09-02T05:50:07.605Z",
+        "updated_at": "2023-09-01T23:51:36.792Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9901c3b1-997b-4d52-a047-44406f542fd6",
+        "job_title": "Administrator",
+        "hire_date": "2023-09-02T06:54:04.152Z",
+        "created_at": "2023-09-02T00:59:46.620Z",
+        "updated_at": "2023-09-02T13:27:39.704Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "722fd960-5f4a-402a-a7f6-879522fadd3d",
+        "job_title": "Assistant",
+        "hire_date": "2023-09-02T12:13:46.614Z",
+        "created_at": "2023-09-02T02:29:46.799Z",
+        "updated_at": "2023-09-02T11:24:40.670Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "32f8b298-9182-4d9e-8f37-4a72483252d7",
+        "email": "Luis_Spencer67@hotmail.com",
+        "firstName": "Jaylin",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1087.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a8a76a9d-ae1b-422e-904b-a647f0ade307",
+        "email": "Santino_Terry@gmail.com",
+        "firstName": "Nigel",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/877.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5635eb3c-1619-4447-9de8-1ebe869bf4eb",
+        "email": "Rebecca86@hotmail.com",
+        "firstName": "Shaun",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/737.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "60b273ee-a8ee-4621-a375-6bfda94652b7",
+        "email": "Mayra.Pfannerstill@yahoo.com",
+        "firstName": "Giovanni",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49080854",
+        "tenantId": null
+      },
+      {
+        "reference": "d41cf953-44e6-4e30-8a32-751b30e1fdd9",
+        "email": "Scarlett.White@hotmail.com",
+        "firstName": "Octavia",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8898185",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cab": [
+      {
+        "id": "55b75687-79cc-4f26-9aab-5f7fec09f377",
+        "model": "Sedan",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-09-01T22:07:57.781Z",
+        "updated_at": "2023-09-02T14:26:45.675Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ae452666-0141-4d3b-81b6-fbfd88766218",
+        "model": "SUV",
+        "license_plate": "XYZ456",
+        "status": "Booked",
+        "created_at": "2023-09-01T20:49:54.382Z",
+        "updated_at": "2023-09-02T09:29:03.359Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4f3603ef-70e0-4276-8f3b-ab60a446e58a",
+        "model": "Hatchback",
+        "license_plate": "123DEF",
+        "status": "Out of Service",
+        "created_at": "2023-09-02T12:20:37.932Z",
+        "updated_at": "2023-09-02T14:25:43.224Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8f8378c4-6553-476d-b3de-d951f315cdfe",
+        "model": "Minivan",
+        "license_plate": "456GHI",
+        "status": "Maintenance",
+        "created_at": "2023-09-01T19:54:51.788Z",
+        "updated_at": "2023-09-02T08:20:54.145Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9099e80b-e4aa-4fcd-b144-91b95912e02a",
+        "model": "Convertible",
+        "license_plate": "JKL789",
+        "status": "On Duty",
+        "created_at": "2023-09-01T20:07:10.054Z",
+        "updated_at": "2023-09-02T01:41:38.077Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "181ce1b9-077a-4826-aa25-38654a7f139b",
+        "pickup_location": "Airport",
+        "dropoff_location": "Restaurant",
+        "booking_time": "2023-09-02T13:34:15.522Z",
+        "status": "Pending",
+        "created_at": "2023-09-01T20:04:33.846Z",
+        "updated_at": "2023-09-02T11:15:25.118Z",
+        "cab_id": "9099e80b-e4aa-4fcd-b144-91b95912e02a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ea78b04-654e-4b84-a394-6376b5126260",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Park",
+        "booking_time": "2023-09-02T12:23:01.524Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-02T05:45:09.405Z",
+        "updated_at": "2023-09-01T18:19:35.788Z",
+        "cab_id": "55b75687-79cc-4f26-9aab-5f7fec09f377",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c459c84-3849-48c2-a117-d19c8880150b",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Movie Theater",
+        "booking_time": "2023-09-01T22:51:47.330Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-01T16:52:50.826Z",
+        "updated_at": "2023-09-01T19:09:11.286Z",
+        "cab_id": "8f8378c4-6553-476d-b3de-d951f315cdfe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f6fad96-d841-4172-9824-592eff5ff289",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Beach",
+        "booking_time": "2023-09-02T03:33:35.714Z",
+        "status": "Completed",
+        "created_at": "2023-09-02T15:48:10.817Z",
+        "updated_at": "2023-09-02T09:59:35.696Z",
+        "cab_id": "9099e80b-e4aa-4fcd-b144-91b95912e02a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8f1c0ef-8007-4ca2-914e-366cb401f1c0",
+        "pickup_location": "Office",
+        "dropoff_location": "Hospital",
+        "booking_time": "2023-09-01T19:46:15.625Z",
+        "status": "No Show",
+        "created_at": "2023-09-02T15:37:24.757Z",
+        "updated_at": "2023-09-02T01:07:28.450Z",
+        "cab_id": "9099e80b-e4aa-4fcd-b144-91b95912e02a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin_staff": [
+      {
+        "id": "1b45886e-1551-40b5-9ab7-071f9dcdbef2",
+        "job_title": "Manager",
+        "hire_date": "2023-09-01T21:19:33.526Z",
+        "created_at": "2023-09-02T04:31:46.236Z",
+        "updated_at": "2023-09-01T18:58:17.968Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16b2a30a-5ccd-4133-b812-646a2cfe6cc0",
+        "job_title": "Supervisor",
+        "hire_date": "2023-09-01T21:17:41.609Z",
+        "created_at": "2023-09-02T14:19:40.486Z",
+        "updated_at": "2023-09-02T05:51:44.863Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc3736c6-6db1-400b-9b80-d22c2420d01d",
+        "job_title": "Coordinator",
+        "hire_date": "2023-09-02T07:01:53.519Z",
+        "created_at": "2023-09-02T01:16:30.007Z",
+        "updated_at": "2023-09-01T20:50:29.077Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe7a54fe-1e7e-475f-b826-76090703c841",
+        "job_title": "Assistant",
+        "hire_date": "2023-09-02T14:36:01.715Z",
+        "created_at": "2023-09-01T19:29:43.070Z",
+        "updated_at": "2023-09-02T11:16:47.306Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf77f033-8b60-4569-bf62-967683d355f1",
+        "job_title": "Administrator",
+        "hire_date": "2023-09-01T19:05:20.162Z",
+        "created_at": "2023-09-02T08:40:57.388Z",
+        "updated_at": "2023-09-02T04:31:45.741Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "121554a5-cf5a-4d77-a145-9cb1086b3f2d",
+        "email": "Jarrett.Gutmann53@gmail.com",
+        "firstName": "Zelda",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25769786",
+        "tenantId": null
+      },
+      {
+        "reference": "e1bbfde1-e601-4e98-8199-9e4ec0d7c31d",
+        "email": "Percival_Gislason@hotmail.com",
+        "firstName": "Anne",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/984.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5c0a362b-ca84-4267-921c-6d7365f23c56",
+        "email": "Ulises_Conroy23@gmail.com",
+        "firstName": "Dessie",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/971.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4cce758c-9aa2-4ef1-9056-f4d6d2cc791e",
+        "email": "Kenton_Abbott92@hotmail.com",
+        "firstName": "Kenyon",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/182.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c64dc71f-1b59-4f16-8256-a2a17be50ae5",
+        "email": "Gerald_Rempel3@gmail.com",
+        "firstName": "Amber",
+        "lastName": "Daugherty-Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/965.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
